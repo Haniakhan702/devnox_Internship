@@ -11,7 +11,7 @@ else:
 a = 10 
 b = 20
 c = 15
-#Compare three numbers to finf the greatest
+#Compare three numbers to find the greatest
 if a > b and a > c :
     print ("a is the greatest number ")
 elif b > a and b > c :    
