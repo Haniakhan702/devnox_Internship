@@ -7,14 +7,19 @@ elif n < 0:
 else:
     print ("Zero")
 
-#Assign values to three variables
+
+
+# Assign values to three variables
 a = 10 
 b = 20
 c = 15
+
 #Compare three numbers to find the greatest
 if a > b and a > c :
     print ("a is the greatest number ")
+
 elif b > a and b > c :    
     print ("b is the greatest number ")
+
 else :
     print("c is the greatest number ")
