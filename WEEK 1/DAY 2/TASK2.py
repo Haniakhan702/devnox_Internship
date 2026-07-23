@@ -26,3 +26,20 @@ else:
             print(text, "is a polindrome")
         else:
             print(text, "is not a polindrome")
+
+
+
+# Function to check anagrams
+def anagram(str1, str2):
+
+    if sorted(str1) == sorted(str2):
+        return "Anagrams"
+    else:
+        return "Not Anagrams"
+
+# Take input from the user
+str1 = input("Enter first string: ")
+str2 = input("Enter second string: ")
+
+# Display result
+print(anagram(str1, str2))

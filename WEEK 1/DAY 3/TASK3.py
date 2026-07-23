@@ -44,3 +44,18 @@ print("Fibonacci Series:")
 # Print Fibonacci numbers
 for i in range(terms):
     print(fibonacci(i), end=" ")
+
+
+
+    # Function to find the second largest number
+def second_largest(numbers):
+
+    numbers.sort()
+
+    return numbers[-2]
+
+# Take input from the user
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+# Display the second largest number
+print("Second Largest Number:", second_largest(numbers))
