@@ -1,3 +1,4 @@
+# Push a small script to GitHub with at least 3 meaningful, separate commits
 import matplotlib.pyplot as plt
 # Sample data
 subjects = ["Math", "English", "Physics", "Computer"]
