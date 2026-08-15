@@ -14,3 +14,7 @@ plt.title("Student Marks Trend")
 plt.xlabel("Subjects")
 plt.ylabel("Marks")
 plt.show()
+# Pie chart
+plt.pie(marks, labels=subjects, autopct="%1.1f%%")
+plt.title("Student Marks Distribution")
+plt.show()
